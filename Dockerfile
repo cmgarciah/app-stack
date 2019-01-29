@@ -17,7 +17,7 @@ RUN mkdir ${APP_DIR} \
 
 VOLUME [${APP_DIR}]
 WORKDIR ${APP_DIR}
-RUN git clone https://github.com/cowbotic/app-stack.git ${APP_DIR}
+RUN git clone https://github.com/cmgarciah/app-stack.git ${APP_DIR}
 
 # copy config files into filesystem
 COPY config_files/flask_app.ini /flask_app.ini
