@@ -15,7 +15,7 @@ spec:
   source:
     git:
       ref: master
-      uri: 'https://github.com/cowbotic/app-stack.git'
+      uri: 'https://github.com/cmgarciah/app-stack.git'
     type: Git
   strategy:
     dockerStrategy: {}
