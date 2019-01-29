@@ -1,5 +1,5 @@
 FROM alpine
-MAINTAINER Cowbotic cowbotic@protonmail.com
+MAINTAINER cmgarciah cmgarciah@indra.es
 
 # basic flask environment
 RUN apk add --no-cache gcc linux-headers musl-dev python3-dev nginx uwsgi uwsgi-python3 bash git\
